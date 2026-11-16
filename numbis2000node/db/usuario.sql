@@ -1,0 +1,3 @@
+CREATE USER IF NOT EXISTS 'utn'@'localhost' IDENTIFIED BY 'utn1234';
+GRANT ALL PRIVILEGES ON ejercicio1.* TO 'utn'@'localhost';
+FLUSH PRIVILEGES;
